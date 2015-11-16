@@ -26,6 +26,7 @@ homebrew_cask_apps:
   - hipchat
   - iterm2
   - sequel-pro
+  - spotify
   - skype
   - sublime-text
   - phpstorm
