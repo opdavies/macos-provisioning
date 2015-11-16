@@ -1,7 +1,7 @@
 # macbook-provisioning
 
 ```bash
-$ ansible-playbook -i inventory playbook.yml -K`
+$ ansible-playbook -i inventory playbook.yml -K
 ```
 
 Run everything.
