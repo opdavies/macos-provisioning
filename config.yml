@@ -12,25 +12,34 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - fish
+  - hub
   - ssh-copy-id
   - wget
 
 homebrew_cask_apps:
   - alfred
+  - caffeine
   - cyberduck
   - dropbox
   - filezilla
   - firefox
+  - flux
+  - gitx
   - google-chome
   - google-drive
   - gpgtools
   - hipchat
   - iterm2
+  - opera
   - sequel-pro
+  - slack
+  - sourcetree
   - spotify
   - skype
   - sublime-text
   - phpstorm
+  - the-unarchiver
+  - tunnelblick
   - vagrant
   - virtualbox
   - vlc
