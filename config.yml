@@ -6,6 +6,7 @@ dotfiles_files:
   - .gitignore-global
 
 homebrew_installed_packages:
+  - fish
   - ssh-copy-id
   - wget
 
