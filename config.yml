@@ -18,9 +18,11 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alfred
   - cyberduck
+  - dropbox
   - filezilla
   - firefox
   - google-chome
+  - google-drive
   - hipchat
   - iterm2
   - sequel-pro
@@ -28,3 +30,4 @@ homebrew_cask_apps:
   - sublime-text
   - phpstorm
   - virtualbox
+  - vlc
