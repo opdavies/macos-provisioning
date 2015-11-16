@@ -23,6 +23,7 @@ homebrew_cask_apps:
   - firefox
   - google-chome
   - google-drive
+  - gpgtools
   - hipchat
   - iterm2
   - sequel-pro
