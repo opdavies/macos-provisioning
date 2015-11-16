@@ -1,0 +1,4 @@
+---
+- src: geerlingguy.homebrew
+- src: geerlingguy.dotfiles
+- src: opdavies.sculpin

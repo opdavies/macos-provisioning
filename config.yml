@@ -1,0 +1,24 @@
+---
+dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
+dotfiles_repo_local_destination: "~/.dotfiles"
+dotfiles_files:
+  - .gitconfig
+  - .gitignore-global
+
+homebrew_installed_packages:
+  - ssh-copy-id
+  - wget
+
+homebrew_cask_apps:
+  - alfred
+  - cyberduck
+  - filezilla
+  - firefox
+  - google-chome
+  - hipchat
+  - iterm2
+  - sequel-pro
+  - skype
+  - sublime-text
+  - phpstorm
+  - virtualbox
