@@ -31,5 +31,6 @@ homebrew_cask_apps:
   - skype
   - sublime-text
   - phpstorm
+  - vagrant
   - virtualbox
   - vlc
