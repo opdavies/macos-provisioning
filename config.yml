@@ -1,6 +1,6 @@
 ---
 dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
-dotfiles_repo_local_destination: "~/Code/dotfiles"
+dotfiles_repo_local_destination: "~/Code/Personal/dotfiles"
 dotfiles_files:
   - .composer/composer.json
   - .composer/composer.lock
