@@ -12,6 +12,9 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - fish
+  - git-extras
+  - git-flow
+  - git-sh
   - hub
   - ssh-copy-id
   - wget
