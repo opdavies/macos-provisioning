@@ -15,8 +15,10 @@ homebrew_installed_packages:
   - git-extras
   - git-flow
   - git-sh
+  - htop
   - hub
   - ssh-copy-id
+  - watch
   - wget
 
 homebrew_cask_apps:
