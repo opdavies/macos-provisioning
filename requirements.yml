@@ -1,4 +1,6 @@
 ---
-- src: geerlingguy.homebrew
 - src: geerlingguy.dotfiles
+- src: geerlingguy.homebrew
+- src: geerlingguy.nodejs
+- src: geerlingguy.ruby
 - src: opdavies.sculpin

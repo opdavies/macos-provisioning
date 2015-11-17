@@ -48,3 +48,10 @@ homebrew_cask_apps:
   - vagrant
   - virtualbox
   - vlc
+
+ruby_install_gems:
+  - grunt
+
+nodejs_forever: false
+nodejs_npm_global_packages:
+  - { name: grunt-cli }
