@@ -15,6 +15,7 @@ homebrew_installed_packages:
   - git-extras
   - git-flow
   - git-sh
+  - mysql
   - htop
   - hub
   - ssh-copy-id
