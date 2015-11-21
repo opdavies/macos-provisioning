@@ -24,7 +24,9 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - alfred
+  - appcleaner
   - caffeine
+  - clamxav
   - cyberduck
   - dropbox
   - filezilla
@@ -36,6 +38,7 @@ homebrew_cask_apps:
   - gpgtools
   - hipchat
   - iterm2
+  - moom
   - opera
   - sequel-pro
   - slack
@@ -43,6 +46,7 @@ homebrew_cask_apps:
   - spotify
   - skype
   - sublime-text
+  - teamviewer
   - phpstorm
   - the-unarchiver
   - tunnelblick
