@@ -47,6 +47,7 @@ homebrew_cask_apps:
   - skype
   - sublime-text
   - teamviewer
+  - textwrangler
   - phpstorm
   - the-unarchiver
   - tunnelblick
