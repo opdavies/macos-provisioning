@@ -16,6 +16,7 @@ homebrew_taps:
   - homebrew/php
 
 homebrew_installed_packages:
+  - drupal-code-sniffer
   - fish
   - git-extras
   - git-flow
