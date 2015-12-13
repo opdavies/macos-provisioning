@@ -4,12 +4,6 @@
   vars_files:
     - config.yml
 
-  pre_tasks:
-    - name: Ensure that the Code directory exists.
-      file:
-        path: ~/Code
-        state: directory
-
   roles:
     - { role: geerlingguy.homebrew, tags: ['brew'] }
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
