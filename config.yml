@@ -63,6 +63,7 @@ homebrew_cask_apps:
 
 ruby_install_gems:
   - grunt
+  - jekyll
 
 nodejs_forever: false
 nodejs_npm_global_packages:
