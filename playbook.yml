@@ -2,7 +2,7 @@
 - hosts: all
 
   vars_files:
-    - config.yml
+    - vars.yml
 
   roles:
     - { role: geerlingguy.homebrew, tags: ['brew'] }
