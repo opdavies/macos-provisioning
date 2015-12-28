@@ -31,6 +31,7 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alfred
   - appcleaner
+  - atom
   - caffeine
   - clamxav
   - cyberduck
@@ -51,7 +52,6 @@ homebrew_cask_apps:
   - sourcetree
   - spotify
   - skype
-  - sublime-text
   - teamviewer
   - textwrangler
   - phpstorm
