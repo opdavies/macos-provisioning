@@ -30,6 +30,7 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - alfred
+  - acquia-dev-desktop
   - appcleaner
   - atom
   - caffeine
