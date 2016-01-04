@@ -69,3 +69,5 @@ ruby_install_gems:
 nodejs_forever: false
 nodejs_npm_global_packages:
   - { name: grunt-cli }
+  - { name: gulp }
+  - { name: gulp-util }
