@@ -46,6 +46,7 @@ homebrew_cask_apps:
   - gpgtools
   - hipchat
   - iterm2
+  - lastpass
   - moom
   - opera
   - sequel-pro
