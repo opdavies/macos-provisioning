@@ -5,8 +5,8 @@
     - vars.yml
 
   roles:
-    - { role: geerlingguy.homebrew, tags: ['brew'] }
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
-    - { role: opdavies.sculpin, tags: ['sculpin'] }
-    - { role: geerlingguy.ruby, tags: ['ruby'] }
+    - { role: geerlingguy.homebrew, tags: ['brew'] }
     - { role: geerlingguy.nodejs, tags: ['node'] }
+    - { role: geerlingguy.ruby, tags: ['ruby'] }
+    - { role: opdavies.sculpin, tags: ['sculpin'] }
