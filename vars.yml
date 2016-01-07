@@ -58,6 +58,7 @@ homebrew_cask_apps:
   - teamviewer
   - textwrangler
   - phpstorm
+  - textual
   - the-unarchiver
   - tunnelblick
   - vagrant
