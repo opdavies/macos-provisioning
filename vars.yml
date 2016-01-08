@@ -42,7 +42,7 @@ homebrew_cask_apps:
   - firefox
   - flux
   - gitx
-  - google-chome
+  - google-chrome
   - google-drive
   - gpgtools
   - hipchat
