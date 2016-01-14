@@ -22,16 +22,16 @@ homebrew_installed_packages:
   - git-extras
   - git-flow
   - git-sh
-  - mysql
   - htop
   - hub
+  - mysql
   - ssh-copy-id
   - watch
   - wget
 
 homebrew_cask_apps:
-  - alfred
   - acquia-dev-desktop
+  - alfred
   - appcleaner
   - atom
   - caffeine
@@ -52,10 +52,10 @@ homebrew_cask_apps:
   - moom
   - opera
   - sequel-pro
+  - skype
   - slack
   - sourcetree
   - spotify
-  - skype
   - teamviewer
   - textwrangler
   - phpstorm
