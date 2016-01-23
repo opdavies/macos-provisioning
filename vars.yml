@@ -26,6 +26,7 @@ homebrew_installed_packages:
   - htop
   - hub
   - mysql
+  - php56-xdebug
   - ssh-copy-id
   - watch
   - wget
