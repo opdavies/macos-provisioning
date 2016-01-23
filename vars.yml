@@ -12,6 +12,7 @@ dotfiles_files:
 
 homebrew_taps:
   - caskroom/cask
+  - caskroom/fonts
   - homebrew/dupes
   - homebrew/php
   - homebrew/services
@@ -41,6 +42,7 @@ homebrew_cask_apps:
   - filezilla
   - firefox
   - flux
+  - font-hack
   - gitx
   - google-chrome
   - google-drive
