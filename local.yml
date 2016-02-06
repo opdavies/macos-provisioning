@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  vars_files:
+    - vars.yml
+
+  roles:
+    - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
+    - { role: geerlingguy.homebrew, tags: ['brew'] }
+    - { role: geerlingguy.nodejs, tags: ['node'] }
+    - { role: geerlingguy.ruby, tags: ['ruby'] }
+    - { role: opdavies.sculpin, tags: ['sculpin'] }
