@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - mysql
   - php56-xdebug
   - ssh-copy-id
+  - tig
   - watch
   - wget
 
