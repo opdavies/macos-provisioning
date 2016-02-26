@@ -2,7 +2,7 @@
 - hosts: all
 
   vars_files:
-    - vars.yml
+    - vars/main.yml
 
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
