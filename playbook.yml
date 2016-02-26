@@ -4,6 +4,9 @@
   vars_files:
     - vars/main.yml
 
+  tasks:
+    - include: tasks/sudoers.yml
+
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
     - { role: geerlingguy.homebrew, tags: ['brew'] }
