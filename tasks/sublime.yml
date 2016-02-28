@@ -1,0 +1,6 @@
+---
+- name: Copy Sublime Text configuration files into place.
+  copy:
+    src: "{{ item }}"
+    dest: "{{ sublime_path }}/Packages/User"
+  with_fileglob: "files/sublime/Packages/User/*"

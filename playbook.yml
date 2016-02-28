@@ -5,7 +5,8 @@
     - vars/main.yml
 
   tasks:
-    - include: tasks/sudoers.yml
+    - { include: tasks/sudoers.yml, tags: ['base', 'sudoers'] }
+    - { include: tasks/sublime.yml, tags: ['sublime'] }
 
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
