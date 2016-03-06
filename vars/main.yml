@@ -18,6 +18,7 @@ homebrew_taps:
   - homebrew/services
 
 homebrew_installed_packages:
+  - composer
   - drupal-code-sniffer
   - fish
   - git-extras
@@ -27,7 +28,10 @@ homebrew_installed_packages:
   - hub
   - mysql
   - peco
+  - php56
   - php56-xdebug
+  - phpmd
+  - phpunit
   - ssh-copy-id
   - tig
   - watch
