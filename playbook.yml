@@ -6,7 +6,6 @@
 
   tasks:
     - { include: tasks/sudoers.yml, tags: ['base', 'sudoers'] }
-    - { include: tasks/sublime.yml, tags: ['sublime'] }
 
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
@@ -14,3 +13,4 @@
     - { role: geerlingguy.nodejs, tags: ['node'] }
     - { role: geerlingguy.ruby, tags: ['ruby'] }
     - { role: opdavies.sculpin, tags: ['sculpin'] }
+    - { role: sublime, tags: ['sublime'] }
