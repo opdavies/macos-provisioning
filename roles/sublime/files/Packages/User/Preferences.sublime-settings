@@ -10,7 +10,8 @@
 		".github",
 		".sass-cache",
 		".sculpin",
-		".svn"
+		".svn",
+		"*.phar"
 	],
 	"font_face": "Menlo",
 	"font_options":
