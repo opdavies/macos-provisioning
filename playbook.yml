@@ -14,3 +14,4 @@
     - { role: geerlingguy.ruby, tags: ['ruby'] }
     - { role: opdavies.sculpin, tags: ['sculpin'] }
     - { role: sublime, tags: ['sublime'] }
+    - { role: mkdocs, tags: ['mkdocs'] }

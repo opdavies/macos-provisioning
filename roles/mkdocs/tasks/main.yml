@@ -1,0 +1,5 @@
+---
+- name: Install mkdocs
+  pip:
+    name: mkdocs
+    state: present
