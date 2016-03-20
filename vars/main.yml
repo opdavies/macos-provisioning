@@ -32,6 +32,7 @@ homebrew_installed_packages:
   - php56-xdebug
   - phpmd
   - phpunit
+  - python
   - ssh-copy-id
   - tig
   - watch
