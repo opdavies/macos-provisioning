@@ -78,6 +78,8 @@ homebrew_cask_apps:
   - virtualbox
   - vlc
 
+homebrew_upgrade_all_packages: yes
+
 ruby_install_gems:
   - grunt
   - jekyll
