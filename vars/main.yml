@@ -57,6 +57,7 @@ homebrew_cask_apps:
   - gpgtools
   - hipchat
   - iterm2
+  - joinme
   - keepassx
   - lastpass
   - licecap
