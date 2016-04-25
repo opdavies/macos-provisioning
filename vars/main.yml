@@ -26,6 +26,7 @@ homebrew_installed_packages:
   - git-sh
   - htop
   - hub
+  - myrepos
   - mysql
   - peco
   - php56
