@@ -47,6 +47,7 @@ homebrew_cask_apps:
   - caffeine
   - clamxav
   - cyberduck
+  - dockertoolbox
   - dropbox
   - filezilla
   - fing
