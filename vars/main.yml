@@ -40,12 +40,9 @@ homebrew_installed_packages:
   - wget
 
 homebrew_cask_apps:
-  - acquia-dev-desktop
   - alfred
   - appcleaner
-  - atom
   - caffeine
-  - clamxav
   - cyberduck
   - dockertoolbox
   - dropbox
@@ -58,8 +55,6 @@ homebrew_cask_apps:
   - google-chrome
   - google-drive
   - gpgtools
-  - hipchat
-  - istat-menus
   - iterm2
   - joinme
   - keepassx
@@ -73,6 +68,7 @@ homebrew_cask_apps:
   - slack
   - sourcetree
   - spotify
+  - sublimetext
   - teamviewer
   - textwrangler
   - phpstorm
@@ -80,7 +76,6 @@ homebrew_cask_apps:
   - the-unarchiver
   - tunnelblick
   - vagrant
-  - vagrant-manager
   - virtualbox
   - vlc
 
