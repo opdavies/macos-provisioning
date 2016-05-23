@@ -3,5 +3,4 @@
 - src: geerlingguy.homebrew
 - src: geerlingguy.nodejs
 - src: geerlingguy.ruby
-- src: opdavies.sculpin
 - src: dotstrap.fish
