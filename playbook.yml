@@ -15,3 +15,6 @@
     - { role: opdavies.sculpin, tags: ['sculpin'] }
     - { role: sublime, tags: ['sublime'] }
     - { role: mkdocs, tags: ['mkdocs'] }
+
+  post_tasks:
+    - { include: tasks/fish.yml, tags: ['base'] }
