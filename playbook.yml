@@ -10,11 +10,7 @@
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
     - { role: geerlingguy.homebrew, tags: ['brew'] }
-    - { role: geerlingguy.nodejs, tags: ['node'] }
-    - { role: geerlingguy.ruby, tags: ['ruby'] }
-    - { role: opdavies.sculpin, tags: ['sculpin'] }
     - { role: sublime, tags: ['sublime'] }
-    - { role: mkdocs, tags: ['mkdocs'] }
 
   post_tasks:
     - { include: tasks/fish.yml, tags: ['base'] }
