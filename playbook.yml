@@ -10,7 +10,5 @@
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
     - { role: geerlingguy.homebrew, tags: ['brew'] }
+    - { role: dotstrap.fish, tags: ['fish'] }
     - { role: sublime, tags: ['sublime'] }
-
-  post_tasks:
-    - { include: tasks/fish.yml, tags: ['base'] }
