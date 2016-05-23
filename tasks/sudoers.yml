@@ -6,4 +6,4 @@
     dest: /etc/sudoers
     mode: 0440
     validate: 'visudo -cf %s'
-  sudo: yes
+  become: yes
