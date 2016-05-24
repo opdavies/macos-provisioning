@@ -2,12 +2,11 @@
 dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
 dotfiles_repo_local_destination: "~/Code/Personal/github/dotfiles"
 dotfiles_files:
-  - .composer/composer.json
-  - .composer/composer.lock
+  # - .composer/composer.json
+  # - .composer/composer.lock
   - .gitconfig
   - .gitignore-global
   - .ideavimrc
-  - .osx
   - .vimrc
 
 homebrew_taps:
@@ -29,8 +28,8 @@ homebrew_installed_packages:
   - myrepos
   - mysql
   - peco
-  - php56
-  - php56-xdebug
+  # - php56
+  # - php56-xdebug
   - phpmd
   - phpunit
   - python
@@ -63,17 +62,17 @@ homebrew_cask_apps:
   - licecap
   - moom
   - opera
+  - phpstorm
   - seil
   - sequel-pro
   - skype
   - slack
   - sourcetree
   - spotify
-  - sublimetext
+  - sublime-text
   - teamviewer
-  - textwrangler
-  - phpstorm
   - textual
+  - textwrangler
   - the-unarchiver
   - tunnelblick
   - vagrant
