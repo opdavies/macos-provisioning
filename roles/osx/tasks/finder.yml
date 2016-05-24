@@ -1,0 +1,23 @@
+---
+- name: Hide items on the Desktop.
+  osx_defaults:
+    domain: com.apple.finder
+    key: CreateDesktop
+    type: bool
+    value: false
+  notify:
+    - killall Finder
+
+- name: 'When performing a search, search the current folder by default.'
+  command: defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+  notify:
+    - killall Finder
+
+- name: Disable the warning when changing a file extension.
+  osx_defaults:
+    domain: com.apple.finder
+    key: FXEnableExtensionChangeWarning
+    type: bool
+    value: false
+  notify:
+    - killall Finder

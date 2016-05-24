@@ -1,0 +1,27 @@
+---
+- name: Set the icon size of Dock items.
+  osx_defaults:
+    domain: com.apple.dock
+    key: tilesize
+    type: float
+    value: 25
+  notify:
+    - killall Dock
+
+- name: Automatically hide and show the Dock.
+  osx_defaults:
+    domain: com.apple.dock
+    key: autohide
+    type: bool
+    value: true
+  notify:
+    - killall Dock
+
+- name: Remove the autohide delay.
+  osx_defaults:
+    domain: com.apple.dock
+    key: autohide-delay
+    type: float
+    value: 0
+  notify:
+    - killall Dock

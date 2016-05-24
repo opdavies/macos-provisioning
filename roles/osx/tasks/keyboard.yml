@@ -1,0 +1,7 @@
+---
+- name: Enable full keyboard access.
+  osx_defaults:
+    domain: NSGlobalDomain
+    key: AppleKeyboardUIMode
+    type: int
+    value: 2

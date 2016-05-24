@@ -1,0 +1,7 @@
+---
+- name: Require a password when exiting the screen saver.
+  osx_defaults:
+    domain: com.apple.universalaccess
+    key: reduceTransparency
+    type: bool
+    value: true

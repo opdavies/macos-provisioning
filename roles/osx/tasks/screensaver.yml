@@ -1,0 +1,14 @@
+---
+- name: Require a password when exiting the screen saver.
+  osx_defaults:
+    domain: com.apple.screensaver
+    key: askForPassword
+    type: integer
+    value: 1
+
+- name: Set the delay time for asking for the password.
+  osx_defaults:
+    domain: com.apple.screensaver
+    key: askForPasswordDelay
+    type: float
+    value: 0

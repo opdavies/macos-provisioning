@@ -12,3 +12,4 @@
     - { role: geerlingguy.homebrew, tags: ['brew'] }
     - { role: dotstrap.fish, tags: ['fish'] }
     - { role: sublime, tags: ['sublime'] }
+    - { role: osx, tags: ['osx'] }

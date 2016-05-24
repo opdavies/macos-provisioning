@@ -1,0 +1,6 @@
+---
+- include: dock.yml
+- include: finder.yml
+- include: keyboard.yml
+- include: screensaver.yml
+- include: universal-access.yml
