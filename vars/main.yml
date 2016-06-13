@@ -4,11 +4,11 @@ dotfiles_repo_local_destination: "~/Code/Personal/github/dotfiles"
 dotfiles_files:
   # - .composer/composer.json
   # - .composer/composer.lock
-  - aliases/ga.fish
-  - aliases/gc.fish
-  - aliases/gs.fish
-  - aliases/l.fish
-  - aliases/v.fish
+  - .config/fish/functions/ga.fish
+  - .config/fish/functions/gc.fish
+  - .config/fish/functions/gs.fish
+  - .config/fish/functions/l.fish
+  - .config/fish/functions/v.fish
   - .gitconfig
   - .gitignore-global
   - .ideavimrc
