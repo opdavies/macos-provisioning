@@ -4,7 +4,7 @@
     domain: com.apple.dock
     key: tilesize
     type: float
-    value: 25
+    value: 20
   notify:
     - killall Dock
 
