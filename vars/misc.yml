@@ -1,0 +1,11 @@
+---
+ruby_install_gems:
+  - grunt
+  - jekyll
+
+nodejs_forever: false
+nodejs_npm_global_packages:
+  - name: grunt-cli
+  - name: gulp
+
+sublime_path: "~/Library/Application Support/Sublime Text 2"

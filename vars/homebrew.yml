@@ -1,19 +1,4 @@
 ---
-dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
-dotfiles_repo_local_destination: "~/Code/Personal/github/dotfiles"
-dotfiles_files:
-  # - .composer/composer.json
-  # - .composer/composer.lock
-  - .config/fish/functions/ga.fish
-  - .config/fish/functions/gc.fish
-  - .config/fish/functions/gs.fish
-  - .config/fish/functions/l.fish
-  - .config/fish/functions/v.fish
-  - .gitconfig
-  - .gitignore-global
-  - .ideavimrc
-  - .vimrc
-
 homebrew_taps:
   - caskroom/cask
   - caskroom/fonts
@@ -30,11 +15,10 @@ homebrew_installed_packages:
   - git-sh
   - htop
   - hub
+  - mas
   - myrepos
   - mysql
   - peco
-  # - php56
-  # - php56-xdebug
   - phpmd
   - phpunit
   - python
@@ -83,16 +67,3 @@ homebrew_cask_apps:
   - vagrant
   - virtualbox
   - vlc
-
-homebrew_upgrade_all_packages: yes
-
-ruby_install_gems:
-  - grunt
-  - jekyll
-
-nodejs_forever: false
-nodejs_npm_global_packages:
-  - name: grunt-cli
-  - name: gulp
-
-sublime_path: "~/Library/Application Support/Sublime Text 2"

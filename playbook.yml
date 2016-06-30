@@ -2,14 +2,16 @@
 - hosts: all
 
   vars_files:
-    - vars/main.yml
+    - vars/dotfiles.yml
+    - vars/homebrew.yml
+    - vars/misc.yml
 
   tasks:
     - { include: tasks/sudoers.yml, tags: ['base', 'sudoers'] }
 
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
-    - { role: geerlingguy.homebrew, tags: ['brew'] }
+    - { role: geerlingguy.homebrew, tags: ['brew', 'homebrew'] }
     - { role: dotstrap.fish, tags: ['fish'] }
     - { role: sublime, tags: ['sublime'] }
     - { role: osx, tags: ['osx'] }
