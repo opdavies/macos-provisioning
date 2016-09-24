@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars_files:
+    - vars/dotfiles.yml
+    - vars/homebrew.yml
+    - vars/misc.yml
+
+  tasks:
+    - include: tasks/sudoers.yml
+
+  roles:
+    - geerlingguy.dotfiles
+    - geerlingguy.homebrew

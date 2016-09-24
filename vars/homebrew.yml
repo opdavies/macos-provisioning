@@ -2,12 +2,18 @@
 homebrew_taps:
   - caskroom/cask
   - caskroom/fonts
+  - caskroom/versions
   - homebrew/dupes
   - homebrew/php
   - homebrew/services
 
 homebrew_installed_packages:
+  - cairo
   - composer
+  - direnv
+  - docker
+  - docker-compose
+  - docker-machine
   - drupal-code-sniffer
   - fish
   - git-extras
@@ -24,41 +30,43 @@ homebrew_installed_packages:
   - python
   - ssh-copy-id
   - tig
+  - tmux
   - watch
   - wget
 
 homebrew_cask_apps:
-  - alfred
   - appcleaner
-  - blue-jeans-launcher
+  - avast
+  # - blue-jeans-launcher
   - caffeine
   - cyberduck
-  - dockertoolbox
   - dropbox
   - filezilla
-  - fing
+  # - fing
   - firefox
   - flux
-  - font-hack
+  - font-fira-code
   - gitx
   - google-chrome
   - google-drive
   - gpgtools
   - iterm2
   - joinme
-  - keepassx
+  - keybase
   - lastpass
   - licecap
   - moom
+  - ngrok
   - opera
   - phpstorm
+  - postman
   - seil
   - sequel-pro
   - skype
   - slack
   - sourcetree
   - spotify
-  - sublime-text
+  - sublime-text-dev
   - teamviewer
   - textual
   - textwrangler

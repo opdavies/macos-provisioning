@@ -8,13 +8,13 @@
 ## Usage
 
 ```bash
-$ ansible-playbook playbook.yml
+$ ansible-playbook main.yml
 ```
 
 Run everything.
 
 ```bash
-$ ansible-playbook playbook.yml -t <tag>
+$ ansible-playbook main.yml -t <tag>
 ```
 
 Run a specific tag.
