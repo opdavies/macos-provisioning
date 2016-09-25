@@ -31,6 +31,7 @@ homebrew_installed_packages:
   - ssh-copy-id
   - tig
   - tmux
+  - tree
   - watch
   - wget
 
