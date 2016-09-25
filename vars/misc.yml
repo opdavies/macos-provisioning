@@ -9,3 +9,5 @@ nodejs_npm_global_packages:
   - name: gulp
 
 sublime_path: "~/Library/Application Support/Sublime Text 2"
+
+configure_sudoers: yes
