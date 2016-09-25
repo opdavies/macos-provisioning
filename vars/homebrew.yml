@@ -51,7 +51,7 @@ homebrew_cask_apps:
   - google-drive
   - gpgtools
   - iterm2
-  - joinme
+  # - joinme
   - keybase
   - lastpass
   - licecap
