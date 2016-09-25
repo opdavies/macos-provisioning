@@ -8,8 +8,8 @@
     - vars/misc.yml
 
   tasks:
-    - include: tasks/sudoers.yml
+    - { include: tasks/sudoers.yml, tags: ['osx'] }
 
   roles:
-    - geerlingguy.dotfiles
-    - geerlingguy.homebrew
+    - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
+    - { role: geerlingguy.homebrew, tags: ['homebrew'] }
