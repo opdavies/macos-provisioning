@@ -8,13 +8,13 @@
 ## Usage
 
 ```bash
-$ ansible-playbook main.yml
+$ ansible-playbook main.yml -i inventory
 ```
 
 Run everything.
 
 ```bash
-$ ansible-playbook main.yml -t <tag>
+$ ansible-playbook main.yml -i inventory -t <tag>
 ```
 
 Run a specific tag.
