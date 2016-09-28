@@ -1,4 +1,4 @@
-# macbook-provisioning
+# macOS Provisioning
 
 ## Prerequisites
 
