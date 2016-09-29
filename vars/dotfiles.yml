@@ -4,6 +4,7 @@ dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
 dotfiles_repo_local_destination: "~/.dotfiles"
 
 dotfiles_files:
+  - .config/fish/config.fish
   - .config/fish/functions/ga.fish
   - .config/fish/functions/gc.fish
   - .config/fish/functions/gl.fish
