@@ -11,9 +11,9 @@ homebrew_installed_packages:
   - cairo
   - composer
   - direnv
-  - docker
-  - docker-compose
-  - docker-machine
+#  - docker
+#  - docker-compose
+#  - docker-machine
   - drupal-code-sniffer
   - fish
   - git-extras
@@ -42,6 +42,7 @@ homebrew_cask_apps:
   # - blue-jeans-launcher
   - caffeine
   - cyberduck
+  - docker-beta
   - dropbox
   - filezilla
   # - fing
