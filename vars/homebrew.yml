@@ -16,6 +16,7 @@ homebrew_installed_packages:
 #  - docker-machine
   - drupal-code-sniffer
   - fish
+  - fswatch
   - git-extras
   - git-flow
   - git-sh
