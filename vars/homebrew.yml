@@ -15,6 +15,7 @@ homebrew_installed_packages:
 #  - docker-compose
 #  - docker-machine
   - drupal-code-sniffer
+  - fabric
   - fish
   - fswatch
   - git-extras
