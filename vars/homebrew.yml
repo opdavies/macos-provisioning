@@ -39,6 +39,7 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - adobe-photoshop-cc
+  - alfred
   - appcleaner
   - avast
   # - blue-jeans-launcher
