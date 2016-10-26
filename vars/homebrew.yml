@@ -43,6 +43,7 @@ homebrew_cask_apps:
   - appcleaner
   - avast
   # - blue-jeans-launcher
+  - boxer
   - caffeine
   - cyberduck
   - docker-beta
