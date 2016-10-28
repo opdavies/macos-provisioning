@@ -14,5 +14,6 @@ dotfiles_files:
   - .gitconfig
   - .gitignore-global
   - .ideavimrc
+  - .liquidpromptrc	
   - .npmrc
   - .vimrc
