@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+i"], "command": "insert_php_constructor_property" },
+  { "keys": ["ctrl+u"], "command": "find_use" }
+]

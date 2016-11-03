@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"install",
+		"module",
+		"inc"
+	]
+}

@@ -9,6 +9,7 @@
 
   tasks:
     - { include: tasks/sudoers.yml, tags: ['osx'] }
+    - { include: tasks/sublime.yml, tags: ['sublime'] }
 
   roles:
     - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }

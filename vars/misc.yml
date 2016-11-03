@@ -7,6 +7,6 @@ nodejs_forever: false
 nodejs_npm_global_packages:
   - name: yarn
 
-sublime_path: "~/Library/Application Support/Sublime Text 2"
+sublime_path: "~/Library/Application Support/Sublime Text 3"
 
 configure_sudoers: yes

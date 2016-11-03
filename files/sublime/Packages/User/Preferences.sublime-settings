@@ -1,0 +1,86 @@
+{
+	"always_show_minimap_viewport": false,
+	"animation_enabled": false,
+	"color_scheme": "Packages/Phix Color Scheme/Phix Dark.tmTheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"extra_file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"extra_folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".idea",
+		"CVS"
+	],
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "Fira Code",
+	"font_size": 13,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+	],
+	"line_padding_bottom": 8,
+	"line_padding_top": 8,
+	"rulers":
+	[
+		80
+	],
+	"shift_tab_unindent": true,
+	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}
