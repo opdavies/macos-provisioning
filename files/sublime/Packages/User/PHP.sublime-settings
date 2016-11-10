@@ -1,8 +1,9 @@
 {
 	"extensions":
 	[
+		"inc",
 		"install",
 		"module",
-		"inc"
+		"test"
 	]
 }
