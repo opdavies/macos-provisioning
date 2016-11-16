@@ -13,6 +13,7 @@ dotfiles_files:
   - .config/fish/functions/v.fish
   - .gitconfig
   - .gitignore-global
+  - .hushlogin
   - .ideavimrc
   - .liquidpromptrc	
   - .npmrc
