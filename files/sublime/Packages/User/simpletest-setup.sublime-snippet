@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * {@inheritdoc}
+ */
+public function setup() {
+  parent::setUp(${1});
+}
+]]></content>
+  <tabTrigger>setup</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
