@@ -2,9 +2,9 @@
   <content><![CDATA[
 public static function getInfo() {
   return array(
-    'name' => '${1}'
-    'description' => '${2}'
-    'group' => '${1}'
+    'name' => '${1}',
+    'description' => '${2}',
+    'group' => '${1}',
   );
 }
 ]]></content>
