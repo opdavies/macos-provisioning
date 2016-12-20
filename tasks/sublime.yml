@@ -1,4 +1,9 @@
 ---
+- name: Ensure that the Sublime directory exists.
+  file:
+    path: "{{ sublime_path }}/Packages/User"
+    state: directory
+
 - name: Copy Sublime Text configuration files into place.
   copy:
     src: "{{ item }}"
