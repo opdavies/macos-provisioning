@@ -7,6 +7,10 @@
 
 ## Usage
 
+```
+ansible-galaxy install -r requirements.yml
+```
+
 ```bash
 $ ansible-playbook main.yml -i inventory
 ```
