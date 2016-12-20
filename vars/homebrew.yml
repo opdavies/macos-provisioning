@@ -11,9 +11,6 @@ homebrew_installed_packages:
   - cairo
   - composer
   - direnv
-#  - docker
-#  - docker-compose
-#  - docker-machine
   - drupal-code-sniffer
   - fabric
   - fish
@@ -36,22 +33,24 @@ homebrew_installed_packages:
   - tree
   - watch
   - wget
+  - z
 
 homebrew_cask_apps:
-  - adobe-photoshop-cc
+#  - adobe-photoshop-cc
   - alfred
   - appcleaner
   - avast
-  - boxer
+#  - boxer
   - caffeine
   - cyberduck
-  - docker-beta
+  - docker
   - dropbox
   - filezilla
   - firefox
   - flux
   - font-fira-code
-  - gitx
+  - font-roboto-mono
+  - font-source-code-pro
   - google-chrome
   - google-drive
   - gpgtools
@@ -71,12 +70,11 @@ homebrew_cask_apps:
   - slack
   - sourcetree
   - spotify
-  - sublime-text-dev
-  - teamviewer
+  - sublime-text
   - textual
   - textwrangler
   - the-unarchiver
   - tunnelblick
-  - vagrant
-  - virtualbox
+#  - vagrant
+#  - virtualbox
   - vlc
