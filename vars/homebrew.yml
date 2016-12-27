@@ -39,6 +39,7 @@ homebrew_cask_apps:
   - adobe-photoshop-cc
   - alfred
   - appcleaner
+  - asciinema
   - avast
   - boxer
   - caffeine
