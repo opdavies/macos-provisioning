@@ -1,7 +1,7 @@
 {
 	"always_show_minimap_viewport": false,
 	"animation_enabled": false,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Ocean-Dark-Soda.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
@@ -11,18 +11,22 @@
 		".sass-cache",
 		"node_modules"
 	],
-	"font_face": "Fira Code",
-	"font_size": 14,
+	"font_face": "Roboto Mono",
+	"font_size": 12,
 	"hot_exit": false,
-	"ignored_packages": [],
+	"ignored_packages":
+	[
+	],
+	"line_numbers": false,
 	"line_padding_bottom": 10,
 	"line_padding_top": 10,
-	"rulers": [
+	"rulers":
+	[
 		80
 	],
 	"shift_tab_unindent": true,
 	"tab_size": 2,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_simple_full_screen": true,
 	"word_wrap": false
