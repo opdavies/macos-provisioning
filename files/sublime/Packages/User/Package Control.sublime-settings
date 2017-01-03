@@ -6,7 +6,10 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Colorsublime",
+		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
+		"DotENV",
 		"EditorConfig",
 		"Emmet",
 		"LESS",
@@ -14,6 +17,8 @@
 		"Package Control",
 		"PHP Companion",
 		"Sass",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
 		"Twig",
 		"View In Browser"
 	]
