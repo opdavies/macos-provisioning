@@ -13,7 +13,6 @@ homebrew_installed_packages:
   - direnv
   - drupal-code-sniffer
   - fabric
-  - fish
   - fswatch
   - git-extras
   - git-flow
@@ -26,6 +25,7 @@ homebrew_installed_packages:
   - peco
   - phpmd
   - phpunit
+  - pv
   - python
   - ssh-copy-id
   - tig
