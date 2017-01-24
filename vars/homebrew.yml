@@ -56,6 +56,7 @@ homebrew_cask_apps:
   - google-drive
   - gpgtools
   - iterm2
+  - karabiner-elements
   - keybase
   - lastpass
   - licecap
@@ -65,7 +66,6 @@ homebrew_cask_apps:
   - phpstorm
   - postman
   - qlmarkdown
-  - seil
   - sequel-pro
   - skype
   - slack
