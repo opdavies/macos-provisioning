@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - fswatch
   - git-extras
   - git-flow
+  - git-ftp
   - git-sh
   - htop
   - hub
