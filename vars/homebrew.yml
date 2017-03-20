@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - tig
   - tmux
   - tree
+  - unison
   - watch
   - wget
   - z
