@@ -1,44 +1,32 @@
 {
-	"color_scheme": "Packages/Phix Color Scheme/Phix Dark.tmTheme",
+	"always_show_minimap_viewport": false,
+	"animation_enabled": false,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
-	"fallback_encoding": "UTF-8",
 	"folder_exclude_patterns":
 	[
-		".idea",
 		".git",
-		".github",
-		".sass-cache",
-		".sculpin",
-		".svn",
-		"*.phar"
+		".idea",
+		".sass-cache"
 	],
-	"font_face": "Menlo",
-	"font_options":
-	[
-		"no_bold",
-		"no_italic"
-	],
-	"font_size": 14.0,
-	"highlight_line": true,
-  "hot_exit": false,
+	"font_face": "Roboto Mono",
+	"font_size": 13,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 	],
-	"line_padding_bottom": 5,
-	"line_padding_top": 5,
-	"margin": 0,
-  "remember_open_files": false,
+	"line_padding_bottom": 10,
+	"line_padding_top": 10,
+	"phpunit-sublime-terminal": "iTerm",
 	"rulers":
 	[
 		80
 	],
-	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
 	"tab_size": 2,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
 	"word_wrap": false
 }
