@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - z
 
 homebrew_cask_apps:
+  - acquia-dev-desktop
   - adobe-photoshop-cc
   - alfred
   - appcleaner
