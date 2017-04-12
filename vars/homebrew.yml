@@ -11,6 +11,7 @@ homebrew_installed_packages:
   - cairo
   - composer
   - direnv
+  - dnsmasq
   - drupal-code-sniffer
   - fabric
   - fswatch
