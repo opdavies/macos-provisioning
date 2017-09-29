@@ -73,6 +73,7 @@ homebrew_cask_apps:
   - phpstorm
   - postman
   - qlmarkdown
+  - resilio-sync
   - sequel-pro
   - skype
   - slack
