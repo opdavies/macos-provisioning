@@ -64,6 +64,7 @@ homebrew_cask_apps:
   - jq
   - karabiner-elements
   - keybase
+  - kitematic
   - lastpass
   - licecap
   - moom
