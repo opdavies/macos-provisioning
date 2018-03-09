@@ -40,8 +40,6 @@ homebrew_installed_packages:
   - z
 
 homebrew_cask_apps:
-  - acquia-dev-desktop
-  - adobe-photoshop-cc
   - alfred
   - appcleaner
   - asciinema
@@ -53,7 +51,6 @@ homebrew_cask_apps:
   - dropbox
   - filezilla
   - firefox
-  - flux
   - font-fira-code
   - font-roboto-mono
   - font-source-code-pro
@@ -66,8 +63,6 @@ homebrew_cask_apps:
   - keybase
   - kitematic
   - lastpass
-  - licecap
-  - moom
   - ngrok
   - obs
   - opera
@@ -79,11 +74,10 @@ homebrew_cask_apps:
   - sequel-pro
   - skype
   - slack
-  - sourcetree
+  - spectacle
   - spotify
   - sublime-text
   - textual
-  - textwrangler
   - the-unarchiver
   - tunnelblick
   - vagrant
