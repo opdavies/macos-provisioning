@@ -55,6 +55,7 @@ homebrew_cask_apps:
   - font-fira-code
   - font-roboto-mono
   - font-source-code-pro
+  - github
   - google-chrome
   - google-drive
   - gpgtools
