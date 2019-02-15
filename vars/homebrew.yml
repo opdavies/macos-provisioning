@@ -47,6 +47,7 @@ homebrew_cask_apps:
   - boxer
   - caffeine
   - cyberduck
+  - discord
   - docker
   - dropbox
   - filezilla
