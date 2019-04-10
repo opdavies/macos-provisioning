@@ -1,11 +1,11 @@
 # macOS Provisioning
 
-## Prerequisites
+## Prerequisites
 
 * [Ansible](http://docs.ansible.com/ansible/intro_installation.html)
 * [Git](http://git-scm.com/downloads)
 
-## Usage
+## Usage
 
 ```
 ansible-galaxy install -r requirements.yml
