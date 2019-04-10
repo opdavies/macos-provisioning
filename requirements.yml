@@ -1,6 +1,6 @@
 ---
 - src: 'geerlingguy.dotfiles'
-  version: '1.1.0'
+  version: '1.2.0'
 - src: 'geerlingguy.homebrew'
   version: '2.1.0'
 - src: 'geerlingguy.mas'
