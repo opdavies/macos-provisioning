@@ -13,7 +13,6 @@ homebrew_installed_packages:
   - direnv
   - dnsmasq
   - drupal-code-sniffer
-  - fabric
   - fswatch
   - git-extras
   - git-flow
@@ -23,11 +22,9 @@ homebrew_installed_packages:
   - hub
   - lftp
   - mas
-  - myrepos
   - mysql
   - peco
   - phpmd
-  - phpunit
   - pv
   - python
   - ssh-copy-id
