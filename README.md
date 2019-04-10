@@ -12,13 +12,13 @@ ansible-galaxy install -r requirements.yml
 ```
 
 ```bash
-$ ansible-playbook main.yml -i inventory
+$ ansible-playbook main.yml
 ```
 
 Run everything.
 
 ```bash
-$ ansible-playbook main.yml -i inventory -t <tag>
+$ ansible-playbook main.yml -t <tag>
 ```
 
 Run a specific tag.
