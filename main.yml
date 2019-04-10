@@ -5,6 +5,7 @@
   vars_files:
     - vars/dotfiles.yml
     - vars/homebrew.yml
+    - vars/mas.yml
     - vars/misc.yml
 
   tasks:
