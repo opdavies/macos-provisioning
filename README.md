@@ -7,18 +7,20 @@
 
 ## Usage
 
+Install the dependencies:
+
 ```
 ansible-galaxy install -r requirements.yml
 ```
 
-```bash
-$ ansible-playbook main.yml
-```
-
-Run everything.
+Run all the tasks:
 
 ```bash
-$ ansible-playbook main.yml -t <tag>
+ansible-playbook main.yml
 ```
 
-Run a specific tag.
+Run tasks with a specific tag:
+
+```bash
+ansible-playbook main.yml -t <tag>
+```
