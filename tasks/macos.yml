@@ -1,0 +1,63 @@
+---
+- name: Hide the menu bar by default
+  osx_defaults:
+    domain: 'Apple Global Domain'
+    key: _HIHideMenuBar
+    type: bool
+    value: true
+
+- name: Check for software updates daily, not just once per week
+  osx_defaults:
+    domain: com.apple.SoftwareUpdate
+    key: ScheduleFrequency
+    type: integer
+    value: 1
+
+- name: Download newly available updates in background
+  osx_defaults:
+    domain: com.apple.SoftwareUpdate
+    key: AutomaticDownload
+    type: integer
+    value: 1
+
+- name: Install System data files & security updates
+  osx_defaults:
+    domain: com.apple.SoftwareUpdate
+    key: CriticalUpdateInstall
+    type: integer
+    value: 1
+
+- name: Automatically download apps purchased on other Macs
+  osx_defaults:
+    domain: com.apple.SoftwareUpdate
+    key: ConfigDataInstall
+    type: integer
+    value: 1
+
+- name: Turn on app auto-update
+  osx_defaults:
+    domain: com.apple.commerce
+    key: AutoUpdate
+    type: boolean
+    value: true
+
+- name: Allow the App Store to reboot machine on macOS updates
+  osx_defaults:
+    domain: com.apple.commerce
+    key: AutoUpdateRestartRequired
+    type: boolean
+    value: true
+
+- name: 'Finder: allow quitting via ⌘+Q; doing so will also hide desktop icons'
+  osx_defaults:
+    domain: com.apple.finder
+    key: QuitMenuItem
+    type: boolean
+    value: true
+
+- name: Kill affected applications
+  command: 'killall {{ item }}'
+  with_items:
+    - Dock
+    - Finder
+    - SystemUIServer
