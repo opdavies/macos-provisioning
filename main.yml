@@ -9,14 +9,18 @@
     - vars/misc.yml
 
   tasks:
-    - { include: tasks/sudoers.yml, tags: ['osx'] }
-    - { include: tasks/sublime.yml, tags: ['sublime'] }
+    - include: tasks/sudoers.yml
+      tags: ['osx']
+    - include: tasks/sublime.yml
+      tags: ['sublime']
     - include: tasks/macos.yml
       tags: ['macos']
 
   roles:
-    - { role: geerlingguy.dotfiles, tags: ['dotfiles'] }
-    - { role: geerlingguy.homebrew, tags: ['homebrew'] }
+    - role: geerlingguy.dotfiles
+      tags: ['dotfiles']
+    - role: geerlingguy.homebrew
+      tags: ['homebrew']
     - role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['mas']
