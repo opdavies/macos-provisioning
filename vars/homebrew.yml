@@ -81,4 +81,5 @@ homebrew_cask_apps:
   - tunnelblick
   - vagrant
   - virtualbox
+  - visual-studio-code
   - vlc
