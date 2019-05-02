@@ -22,6 +22,7 @@ homebrew_installed_packages:
   - hub
   - lftp
   - mas
+  - molecule
   - mysql
   - peco
   - phpmd
