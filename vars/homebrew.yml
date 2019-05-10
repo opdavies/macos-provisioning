@@ -3,8 +3,6 @@ homebrew_taps:
   - caskroom/cask
   - caskroom/fonts
   - caskroom/versions
-  - homebrew/dupes
-  - homebrew/php
   - homebrew/services
 
 homebrew_installed_packages:
