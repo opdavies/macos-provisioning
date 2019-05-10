@@ -62,6 +62,7 @@ homebrew_cask_apps:
   - karabiner-elements
   - keybase
   - kitematic
+  - lando
   - lastpass
   - ngrok
   - obs
