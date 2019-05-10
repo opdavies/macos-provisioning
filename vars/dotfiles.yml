@@ -3,6 +3,7 @@ dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
 dotfiles_repo_local_destination: "~/.dotfiles"
 dotfiles_files:
   - .aliases
+  - .functions
   - .gitconfig
   - .gitignore-global
   - .hushlogin
