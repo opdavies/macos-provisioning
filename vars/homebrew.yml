@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - obs
   - opera
   - phpstorm
+  - pocket-casts
   - postman
   - qblocker
   - qlmarkdown
