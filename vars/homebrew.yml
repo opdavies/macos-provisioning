@@ -64,6 +64,7 @@ homebrew_cask_apps:
   - kitematic
   - lando
   - lastpass
+  - mailplane
   - ngrok
   - obs
   - opera
