@@ -14,3 +14,5 @@ mas_installed_apps:
   - { name: 'Tweetbot', id: 557168941 }
   - { name: 'TweetDeck', id: 485812721 }
   - { name: 'Xcode', id: 497799835 }
+  - name: 'NordVPN IKE - Unlimited VPN'
+    id: 1116599239
