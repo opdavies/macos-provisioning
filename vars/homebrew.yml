@@ -67,6 +67,7 @@ homebrew_cask_apps:
   - lastpass
   - mailplane
   - ngrok
+  - nordvpn
   - obs
   - opera
   - phpstorm
