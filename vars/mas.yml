@@ -22,8 +22,8 @@ mas_installed_apps:
     id: 803453959
   - name: 'Todoist'
     id: 585829637
-  - name: 'Tweetbot'
-    id: 557168941
+  - name: 'Tweetbot 3 for Twitter'
+    id: 1384080005
   - name: 'TweetDeck'
     id: 485812721
   - name: 'Xcode'
