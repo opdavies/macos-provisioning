@@ -42,6 +42,7 @@ homebrew_cask_apps:
   - authy
   - avast
   - balenaetcher
+  - bartender
   - boxer
   - caffeine
   - cyberduck
@@ -82,6 +83,7 @@ homebrew_cask_apps:
   - spectacle
   - spotify
   - sublime-text
+  - synergy
   - textual
   - the-unarchiver
   - tunnelblick
