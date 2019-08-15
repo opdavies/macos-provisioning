@@ -6,6 +6,7 @@ homebrew_taps:
   - homebrew/services
 
 homebrew_installed_packages:
+  - bfg
   - cairo
   - composer
   - direnv
