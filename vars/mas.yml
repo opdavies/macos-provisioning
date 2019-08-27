@@ -2,6 +2,8 @@ mas_signin_dialog: no
 mas_installed_apps:
   - name: 'Bear'
     id: 1091189122
+  - name: 'Display Menu'
+    id: 549083868
   - name: 'iMovie'
     id: 408981434
   - name: 'Keynote'
