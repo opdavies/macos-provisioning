@@ -7,6 +7,7 @@
     - vars/homebrew.yml
     - vars/mas.yml
     - vars/misc.yml
+    - vars/user.yml
 
   tasks:
     - include: tasks/sudoers.yml
@@ -17,6 +18,8 @@
       tags: ['macos']
 
   roles:
+    - role: gantsign.antigen
+      tags: ['zsh']
     - role: geerlingguy.dotfiles
       tags: ['dotfiles']
     - role: geerlingguy.homebrew

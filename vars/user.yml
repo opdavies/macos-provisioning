@@ -1,0 +1,15 @@
+users:
+  - username: opdavies
+    antigen_libraries:
+      - name: oh-my-zsh
+    antigen_bundles:
+      - name: common-aliases
+      - name: composer
+      - name: docker
+      - name: git
+      - name: github
+      - name: npm
+      - name: osx
+      - name: z
+      - name: zsh-autosuggestions
+        url: https://github.com/zsh-users/zsh-autosuggestions
