@@ -10,7 +10,7 @@
 
   tasks:
     - include: tasks/sudoers.yml
-      tags: ['osx']
+      tags: ['macos']
     - include: tasks/sublime.yml
       tags: ['sublime']
     - include: tasks/macos.yml
