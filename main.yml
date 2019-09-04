@@ -17,6 +17,8 @@
       tags: ['macos']
 
   roles:
+    - role: karlmdavis.rcm-dotfiles
+      tags: ['dotfiles']
     - role: geerlingguy.dotfiles
       tags: ['dotfiles']
     - role: geerlingguy.homebrew
