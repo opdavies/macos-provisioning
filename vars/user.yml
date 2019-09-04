@@ -13,3 +13,5 @@ users:
       - name: z
       - name: zsh-autosuggestions
         url: https://github.com/zsh-users/zsh-autosuggestions
+      - name: zsh-syntax-highlighting
+        url: https://github.com/zsh-users/zsh-syntax-highlighting
