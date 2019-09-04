@@ -1,6 +1,5 @@
 ---
-- src: 'geerlingguy.dotfiles'
-  version: '1.2.0'
+- src: 'karlmdavis.rcm-dotfiles'
 - src: 'geerlingguy.homebrew'
   version: '2.9.0'
 - src: 'geerlingguy.mas'
