@@ -3,6 +3,8 @@ users:
     antigen_libraries:
       - name: oh-my-zsh
     antigen_bundles:
+      - name: cd-gitroot
+        url: https://github.com/mollifier/cd-gitroot
       - name: common-aliases
       - name: composer
       - name: docker
