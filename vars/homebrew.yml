@@ -79,6 +79,7 @@ homebrew_cask_apps:
   - qlmarkdown
   - resilio-sync
   - sequel-pro
+  - sip
   - skype
   - slack
   - spectacle
