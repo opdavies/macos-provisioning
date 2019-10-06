@@ -34,7 +34,6 @@ homebrew_installed_packages:
   - unison
   - watch
   - wget
-  - z
 
 homebrew_cask_apps:
   - alfred
