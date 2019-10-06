@@ -67,6 +67,7 @@ homebrew_cask_apps:
   - lando
   - lastpass
   - mailplane
+  - moom
   - ngrok
   - nordvpn
   - obs
@@ -81,7 +82,6 @@ homebrew_cask_apps:
   - sip
   - skype
   - slack
-  - spectacle
   - spotify
   - sublime-text
   - synergy
