@@ -23,4 +23,4 @@
       tags: ['homebrew']
     - role: geerlingguy.mas
       when: mas_installed_apps
-      tags: ['mas']
+      tags: [macos, mas]
