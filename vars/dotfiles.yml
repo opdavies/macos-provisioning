@@ -2,17 +2,4 @@
 rcm_user: opdavies
 rcm_repos:
   - repo: 'https://github.com/opdavies/dotfiles'
-    dest: '/Users/opdavies/.dotfiles'
-
-dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
-dotfiles_repo_local_destination: "~/.dotfiles"
-dotfiles_files:
-  - .aliases
-  - .functions
-  - .gitconfig
-  - .gitignore-global
-  - .hushlogin
-  - .ideavimrc
-  - .npmrc
-  - .vimrc
-  - .zshrc
+    dest: '/Users/opdavies/dotfiles'
