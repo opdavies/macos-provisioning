@@ -1,8 +1,8 @@
 ---
 homebrew_taps:
-  - caskroom/cask
-  - caskroom/fonts
-  - caskroom/versions
+  - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/cask-versions
   - homebrew/services
 
 homebrew_installed_packages:
