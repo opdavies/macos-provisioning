@@ -10,17 +10,17 @@
 
   tasks:
     - include: tasks/sudoers.yml
-      tags: ['macos']
+      tags: [macos]
     - include: tasks/sublime.yml
-      tags: ['sublime']
+      tags: [sublime]
     - include: tasks/macos.yml
-      tags: ['macos']
+      tags: [macos]
 
   roles:
     - role: karlmdavis.rcm-dotfiles
-      tags: ['dotfiles']
+      tags: [dotfiles]
     - role: geerlingguy.homebrew
-      tags: ['homebrew']
+      tags: [homebrew]
     - role: geerlingguy.mas
       when: mas_installed_apps
       tags: [macos, mas]
