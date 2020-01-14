@@ -1,5 +1,6 @@
 ---
 homebrew_taps:
+  - drud/ddev
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/cask-versions
@@ -9,8 +10,10 @@ homebrew_installed_packages:
   - bfg
   - cairo
   - composer
+  - ddev
   - direnv
   - dnsmasq
+  - dockutils
   - drupal-code-sniffer
   - fswatch
   - git-extras
@@ -19,6 +22,7 @@ homebrew_installed_packages:
   - git-sh
   - htop
   - hub
+  - jq
   - lftp
   - mas
   - molecule
@@ -38,9 +42,8 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alfred
   - appcleaner
-  - asciinema
   - authy
-  - avast
+  - avast-security
   - balenaetcher
   - bartender
   - boxer
@@ -50,22 +53,18 @@ homebrew_cask_apps:
   - docker
   - dropbox
   - figma
-  - filezilla
   - firefox
   - font-fira-code
   - font-roboto-mono
   - font-source-code-pro
   - github
   - google-chrome
-  - google-drive
   - gpgtools
   - iconjar
   - iterm2
-  - jq
   - karabiner-elements
   - keybase
   - kitematic
-  - lando
   - lastpass
   - mailplane
   - moom
@@ -81,6 +80,7 @@ homebrew_cask_apps:
   - resilio-sync
   - sequel-pro
   - sip
+  - sizzy
   - skype
   - slack
   - spotify
