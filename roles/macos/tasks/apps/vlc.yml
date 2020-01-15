@@ -1,0 +1,7 @@
+---
+- name: Remove VLC from the menu bar
+  osx_defaults:
+    domain: org.videolan.vlc
+    key: 'NSStatusItem Visible statusBarItem'
+    type: bool
+    value: false
