@@ -1,10 +1,24 @@
 ---
-- name: Hide the menu bar by default
+- name: 'Menu bar: Hide by default'
   osx_defaults:
     domain: 'Apple Global Domain'
     key: _HIHideMenuBar
     type: bool
     value: true
+
+- name: 'Menu bar: Show battery'
+  osx_defaults:
+    domain: com.apple.menuextra.battery
+    key: ShowPercent
+    type: string
+    value: yes
+
+- name: 'Menu bar: Show date'
+  osx_defaults:
+    domain: com.apple.menuextra.clock
+    key: DateFormat
+    type: string
+    value: 'EEE d MMM  HH:mm'
 
 - name: Check for software updates daily, not just once per week
   osx_defaults:
