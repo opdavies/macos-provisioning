@@ -3,5 +3,7 @@
 - include: dock.yml
 - include: finder.yml
 - include: keyboard.yml
+- include: menu-bar.yml
+- include: moved-from-tasks.yml
 - include: screensaver.yml
 - include: universal-access.yml

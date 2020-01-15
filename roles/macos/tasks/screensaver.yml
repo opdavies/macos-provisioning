@@ -10,5 +10,5 @@
   osx_defaults:
     domain: com.apple.screensaver
     key: askForPasswordDelay
-    type: float
+    type: int
     value: 0

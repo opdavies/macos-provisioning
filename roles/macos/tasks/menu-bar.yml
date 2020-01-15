@@ -1,0 +1,22 @@
+---
+- name: Hide by default
+  osx_defaults:
+    domain: 'Apple Global Domain'
+    key: _HIHideMenuBar
+    type: bool
+    value: true
+
+- name: Show battery percentage
+  osx_defaults:
+    domain: com.apple.menuextra.battery
+    key: ShowPercent
+    type: string
+    value: yes
+
+- name: Show the current date
+  osx_defaults:
+    domain: com.apple.menuextra.clock
+    key: DateFormat
+    type: string
+    value: 'EEE d MMM  HH:mm'
+
