@@ -1,7 +1,14 @@
 ---
-- name: Require a password when exiting the screen saver.
+- name: Reduce transparency
   osx_defaults:
     domain: com.apple.universalaccess
     key: reduceTransparency
+    type: bool
+    value: true
+
+- name: Reduce motion
+  osx_defaults:
+    domain: com.apple.universalaccess
+    key: reduceMotion
     type: bool
     value: true

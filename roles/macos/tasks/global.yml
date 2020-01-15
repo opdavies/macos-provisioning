@@ -1,0 +1,23 @@
+- name: Disable smart dashes
+  osx_defaults:
+    domain: NSGlobalDomain
+    key: NSAutomaticDashSubstitutionEnabled
+    type: bool
+    value: false
+
+- name: Disable press-and-hold for keys in favor of key repeat
+  osx_defaults:
+    domain: NSGlobalDomain
+    key: ApplePressAndHoldEnabled
+    type: bool
+    value: false
+
+- name: Set a blazingly fast keyboard repeat rate, and make it happen more quickly
+  osx_defaults:
+    domain: NSGlobalDomain
+    key: '{{ item.key }}'
+    type: int
+    value: '{{ item.value }}'
+  with_items:
+    - { key: InitialKeyRepeat, value: 20 }
+    - { key: KeyRepeat, value: 1 }

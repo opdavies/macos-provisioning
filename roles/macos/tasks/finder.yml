@@ -21,3 +21,21 @@
     value: false
   notify:
     - killall Finder
+
+- name: Hide the status bar
+  osx_defaults:
+    domain: com.apple.finder
+    key: ShowStatusBar
+    type: bool
+    value: false
+  notify:
+    - killall Finder
+
+- name: Hide the path bar
+  osx_defaults:
+    domain: com.apple.finder
+    key: ShowPathbar
+    type: bool
+    value: false
+  notify:
+    - killall Finder
