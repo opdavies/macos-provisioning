@@ -9,8 +9,6 @@
     - vars/misc.yml
 
   tasks:
-    - include: tasks/sudoers.yml
-      tags: [macos]
     - include: tasks/sublime.yml
       tags: [sublime]
 
