@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - mas
   - molecule
   - mysql
+  - npm
   - peco
   - phpmd
   - pv
@@ -40,6 +41,7 @@ homebrew_installed_packages:
   - unison
   - watch
   - wget
+  - yarn
 
 homebrew_cask_apps:
   - alfred
