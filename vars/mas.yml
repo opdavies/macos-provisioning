@@ -4,6 +4,8 @@ mas_installed_apps:
     id: 1091189122
   - name: 'Carbonize'
     id: 1451177988
+  - name: 'iA Writer'
+    id: 775737590
   - name: 'iMovie'
     id: 408981434
   - name: 'Keynote'
