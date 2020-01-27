@@ -1,30 +1,16 @@
 mas_signin_dialog: no
 mas_installed_apps:
-  - name: 'Bear'
-    id: 1091189122
-  - name: 'Carbonize'
-    id: 1451177988
-  - name: 'iA Writer'
-    id: 775737590
-  - name: 'iMovie'
-    id: 408981434
-  - name: 'Keynote'
-    id: 409183694
-  - name: 'LastPass'
-    id: 926036361
-  - name: 'Numbers'
-    id: 409203825
-  - name: 'Pages'
-    id: 409201541
-  - name: 'Reeder'
-    id: 880001334
-  - name: 'Slack'
-    id: 803453959
-  - name: 'Todoist'
-    id: 585829637
-  - name: 'Tweetbot 3 for Twitter'
-    id: 1384080005
-  - name: 'TweetDeck'
-    id: 485812721
-  - name: 'Xcode'
-    id: 497799835
+  - { name: 'Bear', id: 1091189122 }
+  - { name: 'Carbonize', id: 1451177988 }
+  - { name: 'iA Writer', id: 775737590 }
+  - { name: 'iMovie', id: 408981434 }
+  - { name: 'Keynote', id: 409183694 }
+  - { name: 'LastPass', id: 926036361 }
+  - { name: 'Numbers', id: 409203825 }
+  - { name: 'Pages', id: 409201541 }
+  - { name: 'Reeder', id: 880001334 }
+  - { name: 'Slack', id: 803453959 }
+  - { name: 'Todoist', id: 585829637 }
+  - { name: 'Tweetbot 3 for Twitter', id: 1384080005 }
+  - { name: 'TweetDeck', id: 485812721 }
+  - { name: 'Xcode', id: 497799835 }
