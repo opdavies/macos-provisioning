@@ -13,7 +13,7 @@ homebrew_installed_packages:
   - ddev
   - direnv
   - dnsmasq
-  - dockutils
+  - dockutil
   - drupal-code-sniffer
   - fswatch
   - fzf
