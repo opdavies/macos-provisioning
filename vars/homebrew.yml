@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - dockutils
   - drupal-code-sniffer
   - fswatch
+  - fzf
   - git-extras
   - git-flow
   - git-ftp
