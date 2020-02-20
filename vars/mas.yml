@@ -1,5 +1,6 @@
 mas_signin_dialog: no
 mas_installed_apps:
+  - { name: 'Airmail 4', id: 918858936 }
   - { name: 'Bear', id: 1091189122 }
   - { name: 'Carbonize', id: 1451177988 }
   - { name: 'iA Writer', id: 775737590 }
