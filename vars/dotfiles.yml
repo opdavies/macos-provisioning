@@ -1,5 +1,0 @@
----
-rcm_user: opdavies
-rcm_repos:
-  - repo: 'https://github.com/opdavies/dotfiles'
-    dest: '/Users/opdavies/dotfiles'

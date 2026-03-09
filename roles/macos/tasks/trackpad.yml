@@ -1,7 +1,0 @@
----
-- name: Enable tap on click
-  osx_defaults:
-    domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
-    key: Clicking
-    type: bool
-    value: true
